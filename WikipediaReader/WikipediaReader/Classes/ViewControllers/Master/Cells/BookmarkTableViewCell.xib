@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="BookmarkTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14S-1Q-hnP" userLabel="Label - Title">
+                        <rect key="frame" x="20" y="10" width="280" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="zbg-LG-dVL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lhn-jY-CUr" userLabel="Label - Date">
+                        <rect key="frame" x="20" y="31" width="280" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="b7Q-JN-XmT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qmj-JK-6k9" userLabel="View - Separator">
+                        <rect key="frame" x="0.0" y="52" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="9M3-TT-cDe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Lhn-jY-CUr" firstAttribute="top" secondItem="14S-1Q-hnP" secondAttribute="bottom" id="1SX-nR-nFC"/>
+                    <constraint firstItem="Qmj-JK-6k9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3k4-0h-rfg"/>
+                    <constraint firstItem="14S-1Q-hnP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="5m1-Fz-0Ya"/>
+                    <constraint firstAttribute="bottom" secondItem="Qmj-JK-6k9" secondAttribute="bottom" id="KGN-nm-vvn"/>
+                    <constraint firstAttribute="trailing" secondItem="Qmj-JK-6k9" secondAttribute="trailing" id="RQR-hb-8It"/>
+                    <constraint firstAttribute="trailing" secondItem="Lhn-jY-CUr" secondAttribute="trailing" constant="20" id="dmE-zZ-h7D"/>
+                    <constraint firstAttribute="trailing" secondItem="14S-1Q-hnP" secondAttribute="trailing" constant="20" id="fWY-O4-Ul2"/>
+                    <constraint firstItem="Lhn-jY-CUr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="jqJ-Wn-Kva"/>
+                    <constraint firstItem="14S-1Q-hnP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="o8W-Oz-RYs"/>
+                    <constraint firstItem="Qmj-JK-6k9" firstAttribute="top" secondItem="Lhn-jY-CUr" secondAttribute="bottom" id="qqF-3I-EC8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iboDateLabel" destination="Lhn-jY-CUr" id="zK4-2a-IST"/>
+                <outlet property="iboSeparatorView" destination="Qmj-JK-6k9" id="ob3-HX-ZOu"/>
+                <outlet property="iboTitleLabel" destination="14S-1Q-hnP" id="HHG-WJ-DLj"/>
+            </connections>
+            <point key="canvasLocation" x="519" y="319"/>
+        </tableViewCell>
+    </objects>
+</document>

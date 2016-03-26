@@ -1,0 +1,26 @@
+//
+//  Localizable.strings
+//  WikipediaReader
+//
+//  Created by Arturs Rukmanis on 25.03.16.
+//  Copyright © 2016 Arturs Rukmanis. All rights reserved.
+//
+
+"title_bookmarks" = "Grāmatzīmes";
+"title_settings" = "Iestatījumi";
+
+"title_settings_signin" = "Ielogoties";
+"title_settings_signout" = "Izrakstīties (%@)";
+"title_settings_change_language" = "Mainīt valodu";
+
+"title_settings_back" = "Atpakaļ";
+
+"lbl_lang_ru" = "По-русски";
+"lbl_lang_en" = "In English";
+"lbl_lang_lv" = "Latviski";
+
+"lbl_public_bookmarks" = "Anonīmās";
+"lbl_my_bookmarks" = "Manas";
+
+"title_no_data" = "Nav grāmatzīmju";
+"title_sign_in_to_view" = "Pierakstieties, lai skatītu grāmatzīmes";

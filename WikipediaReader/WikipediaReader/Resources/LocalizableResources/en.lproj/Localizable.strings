@@ -1,0 +1,25 @@
+//
+//  Localizable.strings
+//  WikipediaReader
+//
+//  Created by Arturs Rukmanis on 25.03.16.
+//  Copyright © 2016 Arturs Rukmanis. All rights reserved.
+//
+
+"title_bookmarks" = "Bookmarks";
+"title_settings" = "Settings";
+
+"title_settings_signin" = "Sign In";
+"title_settings_signout" = "Sign Out (%@)";
+"title_settings_change_language" = "Change language";
+
+"title_settings_back" = "Back";
+
+"lbl_lang_ru" = "По-русски";
+"lbl_lang_en" = "In English";
+"lbl_lang_lv" = "Latviski";
+
+"lbl_public_bookmarks" = "Anonymous";
+"lbl_my_bookmarks" = "My";
+"title_no_data" = "No Bookmarks";
+"title_sign_in_to_view" = "Sign in to view bookmarks";

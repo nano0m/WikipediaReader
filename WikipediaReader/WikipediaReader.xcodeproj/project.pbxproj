@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C3B01F21CA4FCEF00BC4197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B01F11CA4FCEF00BC4197 /* main.m */; };
+		6C3B01F51CA4FCEF00BC4197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B01F41CA4FCEF00BC4197 /* AppDelegate.m */; };
+		6C3B01FE1CA4FCEF00BC4197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B01FC1CA4FCEF00BC4197 /* Main.storyboard */; };
+		6C3B02001CA4FCEF00BC4197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B01FF1CA4FCEF00BC4197 /* Assets.xcassets */; };
+		6C3B02031CA4FCEF00BC4197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B02011CA4FCEF00BC4197 /* LaunchScreen.storyboard */; };
+		6C3B021A1CA4FEDB00BC4197 /* LocalizationSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B020E1CA4FEDB00BC4197 /* LocalizationSystem.m */; };
+		6C3B021C1CA4FEDB00BC4197 /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02141CA4FEDB00BC4197 /* SettingsManager.m */; };
+		6C3B02251CA4FEE900BC4197 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B02211CA4FEE900BC4197 /* Localizable.strings */; };
+		6C3B02381CA5001C00BC4197 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B022E1CA5001C00BC4197 /* Tools.m */; };
+		6C3B02431CA506C000BC4197 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3B02421CA506C000BC4197 /* UIKit.framework */; };
+		6C3B02451CA506C700BC4197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3B02441CA506C700BC4197 /* Foundation.framework */; };
+		6C3B02491CA5090800BC4197 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02481CA5090800BC4197 /* BaseViewController.m */; };
+		6C3B02521CA50E9400BC4197 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02511CA50E9400BC4197 /* SettingsViewController.m */; };
+		6C3B025C1CA5150D00BC4197 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B025B1CA5150D00BC4197 /* BaseTableViewCell.m */; };
+		6C3B02611CA5156800BC4197 /* ListItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B025F1CA5156800BC4197 /* ListItemTableViewCell.m */; };
+		6C3B02621CA5156800BC4197 /* ListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B02601CA5156800BC4197 /* ListItemTableViewCell.xib */; };
+		6C3B02651CA518AD00BC4197 /* LanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02641CA518AD00BC4197 /* LanguageViewController.m */; };
+		6C3B02741CA5332100BC4197 /* WikipediaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02731CA5332100BC4197 /* WikipediaDetailViewController.m */; };
+		6C3B02771CA5343000BC4197 /* BookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02761CA5343000BC4197 /* BookmarksViewController.m */; };
+		6C3B029F1CA54C9F00BC4197 /* Html in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B029E1CA54C9F00BC4197 /* Html */; };
+		6C3B02A31CA5A78B00BC4197 /* OfflineService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02A21CA5A78B00BC4197 /* OfflineService.m */; };
+		6C3B02A51CA5A86800BC4197 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3B02A41CA5A86800BC4197 /* libsqlite3.tbd */; };
+		6C3B02A81CA5A8DB00BC4197 /* WikipediaReaderDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02A71CA5A8DB00BC4197 /* WikipediaReaderDataManager.m */; };
+		6C3B02AE1CA5B42700BC4197 /* Bookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02AD1CA5B42700BC4197 /* Bookmark.m */; };
+		6C3B02B21CA5B68200BC4197 /* BookmarkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B02B01CA5B68200BC4197 /* BookmarkTableViewCell.m */; };
+		6C3B02B31CA5B68200BC4197 /* BookmarkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B02B11CA5B68200BC4197 /* BookmarkTableViewCell.xib */; };
+		6C3B02B81CA5CE8400BC4197 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3B02B71CA5CE8400BC4197 /* GoogleSignIn.framework */; };
+		6C3B02BA1CA5D1C000BC4197 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3B02B91CA5D1C000BC4197 /* AddressBook.framework */; };
+		6C3B02BC1CA5D1C900BC4197 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3B02BB1CA5D1C900BC4197 /* SafariServices.framework */; };
+		6C3B02BE1CA5D1D400BC4197 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3B02BD1CA5D1D300BC4197 /* SystemConfiguration.framework */; };
+		6C3B02C01CA5D22700BC4197 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B02BF1CA5D22700BC4197 /* GoogleSignIn.bundle */; };
+		6C3B02C21CA5D2F100BC4197 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3B02C11CA5D2F100BC4197 /* StoreKit.framework */; };
+		6C3B02C41CA5D36E00BC4197 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3B02C31CA5D36E00BC4197 /* libz.tbd */; };
+		6C3B02C61CA5EDFC00BC4197 /* Bookmarks.db in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B02C51CA5EDFC00BC4197 /* Bookmarks.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C3B01ED1CA4FCEF00BC4197 /* WikipediaReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikipediaReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3B01F11CA4FCEF00BC4197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C3B01F31CA4FCEF00BC4197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C3B01F41CA4FCEF00BC4197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C3B01FD1CA4FCEF00BC4197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C3B01FF1CA4FCEF00BC4197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C3B02021CA4FCEF00BC4197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C3B02041CA4FCEF00BC4197 /* WikipediaReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WikipediaReader-Info.plist"; sourceTree = "<group>"; };
+		6C3B020D1CA4FEDB00BC4197 /* LocalizationSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationSystem.h; sourceTree = "<group>"; };
+		6C3B020E1CA4FEDB00BC4197 /* LocalizationSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizationSystem.m; sourceTree = "<group>"; };
+		6C3B02131CA4FEDB00BC4197 /* SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManager.h; sourceTree = "<group>"; };
+		6C3B02141CA4FEDB00BC4197 /* SettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManager.m; sourceTree = "<group>"; };
+		6C3B02221CA4FEE900BC4197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6C3B02231CA4FEE900BC4197 /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6C3B02241CA4FEE900BC4197 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6C3B022D1CA5001C00BC4197 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		6C3B022E1CA5001C00BC4197 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		6C3B02421CA506C000BC4197 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C3B02441CA506C700BC4197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C3B02471CA5090800BC4197 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6C3B02481CA5090800BC4197 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6C3B02501CA50E9400BC4197 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		6C3B02511CA50E9400BC4197 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		6C3B025A1CA5150D00BC4197 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		6C3B025B1CA5150D00BC4197 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		6C3B025E1CA5156800BC4197 /* ListItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemTableViewCell.h; sourceTree = "<group>"; };
+		6C3B025F1CA5156800BC4197 /* ListItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemTableViewCell.m; sourceTree = "<group>"; };
+		6C3B02601CA5156800BC4197 /* ListItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListItemTableViewCell.xib; sourceTree = "<group>"; };
+		6C3B02631CA518AD00BC4197 /* LanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageViewController.h; sourceTree = "<group>"; };
+		6C3B02641CA518AD00BC4197 /* LanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageViewController.m; sourceTree = "<group>"; };
+		6C3B02721CA5332100BC4197 /* WikipediaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikipediaDetailViewController.h; sourceTree = "<group>"; };
+		6C3B02731CA5332100BC4197 /* WikipediaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikipediaDetailViewController.m; sourceTree = "<group>"; };
+		6C3B02751CA5343000BC4197 /* BookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksViewController.h; sourceTree = "<group>"; };
+		6C3B02761CA5343000BC4197 /* BookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksViewController.m; sourceTree = "<group>"; };
+		6C3B029E1CA54C9F00BC4197 /* Html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Html; sourceTree = "<group>"; };
+		6C3B02A11CA5A78B00BC4197 /* OfflineService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfflineService.h; sourceTree = "<group>"; };
+		6C3B02A21CA5A78B00BC4197 /* OfflineService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineService.m; sourceTree = "<group>"; };
+		6C3B02A41CA5A86800BC4197 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6C3B02A61CA5A8DB00BC4197 /* WikipediaReaderDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikipediaReaderDataManager.h; sourceTree = "<group>"; };
+		6C3B02A71CA5A8DB00BC4197 /* WikipediaReaderDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikipediaReaderDataManager.m; sourceTree = "<group>"; };
+		6C3B02AC1CA5B42700BC4197 /* Bookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookmark.h; sourceTree = "<group>"; };
+		6C3B02AD1CA5B42700BC4197 /* Bookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookmark.m; sourceTree = "<group>"; };
+		6C3B02AF1CA5B68200BC4197 /* BookmarkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkTableViewCell.h; sourceTree = "<group>"; };
+		6C3B02B01CA5B68200BC4197 /* BookmarkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkTableViewCell.m; sourceTree = "<group>"; };
+		6C3B02B11CA5B68200BC4197 /* BookmarkTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarkTableViewCell.xib; sourceTree = "<group>"; };
+		6C3B02B71CA5CE8400BC4197 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		6C3B02B91CA5D1C000BC4197 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6C3B02BB1CA5D1C900BC4197 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		6C3B02BD1CA5D1D300BC4197 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6C3B02BF1CA5D22700BC4197 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		6C3B02C11CA5D2F100BC4197 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6C3B02C31CA5D36E00BC4197 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6C3B02C51CA5EDFC00BC4197 /* Bookmarks.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bookmarks.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C3B01EA1CA4FCEF00BC4197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3B02C41CA5D36E00BC4197 /* libz.tbd in Frameworks */,
+				6C3B02C21CA5D2F100BC4197 /* StoreKit.framework in Frameworks */,
+				6C3B02BE1CA5D1D400BC4197 /* SystemConfiguration.framework in Frameworks */,
+				6C3B02BC1CA5D1C900BC4197 /* SafariServices.framework in Frameworks */,
+				6C3B02BA1CA5D1C000BC4197 /* AddressBook.framework in Frameworks */,
+				6C3B02B81CA5CE8400BC4197 /* GoogleSignIn.framework in Frameworks */,
+				6C3B02A51CA5A86800BC4197 /* libsqlite3.tbd in Frameworks */,
+				6C3B02451CA506C700BC4197 /* Foundation.framework in Frameworks */,
+				6C3B02431CA506C000BC4197 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C3B01E41CA4FCEF00BC4197 = {
+			isa = PBXGroup;
+			children = (
+				6C3B01EF1CA4FCEF00BC4197 /* WikipediaReader */,
+				6C3B02461CA506DB00BC4197 /* Frameworks */,
+				6C3B01EE1CA4FCEF00BC4197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C3B01EE1CA4FCEF00BC4197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B01ED1CA4FCEF00BC4197 /* WikipediaReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C3B01EF1CA4FCEF00BC4197 /* WikipediaReader */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B01FF1CA4FCEF00BC4197 /* Assets.xcassets */,
+				6C3B021F1CA4FEE900BC4197 /* Resources */,
+				6C3B020B1CA4FEDB00BC4197 /* Classes */,
+				6C3B01F31CA4FCEF00BC4197 /* AppDelegate.h */,
+				6C3B01F41CA4FCEF00BC4197 /* AppDelegate.m */,
+				6C3B01FC1CA4FCEF00BC4197 /* Main.storyboard */,
+				6C3B02011CA4FCEF00BC4197 /* LaunchScreen.storyboard */,
+				6C3B01F01CA4FCEF00BC4197 /* Supporting Files */,
+			);
+			path = WikipediaReader;
+			sourceTree = "<group>";
+		};
+		6C3B01F01CA4FCEF00BC4197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02C51CA5EDFC00BC4197 /* Bookmarks.db */,
+				6C3B02BF1CA5D22700BC4197 /* GoogleSignIn.bundle */,
+				6C3B02041CA4FCEF00BC4197 /* WikipediaReader-Info.plist */,
+				6C3B01F11CA4FCEF00BC4197 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C3B020B1CA4FEDB00BC4197 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02591CA5150D00BC4197 /* Cells */,
+				6C3B02AB1CA5B41100BC4197 /* Model */,
+				6C3B020C1CA4FEDB00BC4197 /* Localization */,
+				6C3B02A01CA5A78B00BC4197 /* Services */,
+				6C3B02121CA4FEDB00BC4197 /* Setttings */,
+				6C3B02261CA5001C00BC4197 /* Utils */,
+				6C3B02151CA4FEDB00BC4197 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6C3B020C1CA4FEDB00BC4197 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B020D1CA4FEDB00BC4197 /* LocalizationSystem.h */,
+				6C3B020E1CA4FEDB00BC4197 /* LocalizationSystem.m */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		6C3B02121CA4FEDB00BC4197 /* Setttings */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02131CA4FEDB00BC4197 /* SettingsManager.h */,
+				6C3B02141CA4FEDB00BC4197 /* SettingsManager.m */,
+			);
+			path = Setttings;
+			sourceTree = "<group>";
+		};
+		6C3B02151CA4FEDB00BC4197 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02471CA5090800BC4197 /* BaseViewController.h */,
+				6C3B02481CA5090800BC4197 /* BaseViewController.m */,
+				6C3B024E1CA50E9400BC4197 /* Master */,
+				6C3B02711CA5330D00BC4197 /* Detail */,
+				6C3B02A61CA5A8DB00BC4197 /* WikipediaReaderDataManager.h */,
+				6C3B02A71CA5A8DB00BC4197 /* WikipediaReaderDataManager.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6C3B021F1CA4FEE900BC4197 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B029E1CA54C9F00BC4197 /* Html */,
+				6C3B02201CA4FEE900BC4197 /* LocalizableResources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C3B02201CA4FEE900BC4197 /* LocalizableResources */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02211CA4FEE900BC4197 /* Localizable.strings */,
+			);
+			path = LocalizableResources;
+			sourceTree = "<group>";
+		};
+		6C3B02261CA5001C00BC4197 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B022D1CA5001C00BC4197 /* Tools.h */,
+				6C3B022E1CA5001C00BC4197 /* Tools.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6C3B02461CA506DB00BC4197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02C31CA5D36E00BC4197 /* libz.tbd */,
+				6C3B02C11CA5D2F100BC4197 /* StoreKit.framework */,
+				6C3B02BD1CA5D1D300BC4197 /* SystemConfiguration.framework */,
+				6C3B02BB1CA5D1C900BC4197 /* SafariServices.framework */,
+				6C3B02B91CA5D1C000BC4197 /* AddressBook.framework */,
+				6C3B02A41CA5A86800BC4197 /* libsqlite3.tbd */,
+				6C3B02B71CA5CE8400BC4197 /* GoogleSignIn.framework */,
+				6C3B02441CA506C700BC4197 /* Foundation.framework */,
+				6C3B02421CA506C000BC4197 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C3B024E1CA50E9400BC4197 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B025D1CA5154000BC4197 /* Cells */,
+				6C3B024F1CA50E9400BC4197 /* Settings */,
+				6C3B02751CA5343000BC4197 /* BookmarksViewController.h */,
+				6C3B02761CA5343000BC4197 /* BookmarksViewController.m */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		6C3B024F1CA50E9400BC4197 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02631CA518AD00BC4197 /* LanguageViewController.h */,
+				6C3B02641CA518AD00BC4197 /* LanguageViewController.m */,
+				6C3B02501CA50E9400BC4197 /* SettingsViewController.h */,
+				6C3B02511CA50E9400BC4197 /* SettingsViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6C3B02591CA5150D00BC4197 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B025A1CA5150D00BC4197 /* BaseTableViewCell.h */,
+				6C3B025B1CA5150D00BC4197 /* BaseTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6C3B025D1CA5154000BC4197 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B025E1CA5156800BC4197 /* ListItemTableViewCell.h */,
+				6C3B025F1CA5156800BC4197 /* ListItemTableViewCell.m */,
+				6C3B02601CA5156800BC4197 /* ListItemTableViewCell.xib */,
+				6C3B02AF1CA5B68200BC4197 /* BookmarkTableViewCell.h */,
+				6C3B02B01CA5B68200BC4197 /* BookmarkTableViewCell.m */,
+				6C3B02B11CA5B68200BC4197 /* BookmarkTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6C3B02711CA5330D00BC4197 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02721CA5332100BC4197 /* WikipediaDetailViewController.h */,
+				6C3B02731CA5332100BC4197 /* WikipediaDetailViewController.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		6C3B02A01CA5A78B00BC4197 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02A11CA5A78B00BC4197 /* OfflineService.h */,
+				6C3B02A21CA5A78B00BC4197 /* OfflineService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6C3B02AB1CA5B41100BC4197 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B02AC1CA5B42700BC4197 /* Bookmark.h */,
+				6C3B02AD1CA5B42700BC4197 /* Bookmark.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C3B01EC1CA4FCEF00BC4197 /* WikipediaReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3B02071CA4FCEF00BC4197 /* Build configuration list for PBXNativeTarget "WikipediaReader" */;
+			buildPhases = (
+				6C3B01E91CA4FCEF00BC4197 /* Sources */,
+				6C3B01EA1CA4FCEF00BC4197 /* Frameworks */,
+				6C3B01EB1CA4FCEF00BC4197 /* Resources */,
+				6C3B020A1CA4FD0600BC4197 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikipediaReader;
+			productName = WikipediaReader;
+			productReference = 6C3B01ED1CA4FCEF00BC4197 /* WikipediaReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C3B01E51CA4FCEF00BC4197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arturs Rukmanis";
+				TargetAttributes = {
+					6C3B01EC1CA4FCEF00BC4197 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WJMXL47JQB;
+					};
+				};
+			};
+			buildConfigurationList = 6C3B01E81CA4FCEF00BC4197 /* Build configuration list for PBXProject "WikipediaReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				lv,
+				ru,
+			);
+			mainGroup = 6C3B01E41CA4FCEF00BC4197;
+			productRefGroup = 6C3B01EE1CA4FCEF00BC4197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C3B01EC1CA4FCEF00BC4197 /* WikipediaReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C3B01EB1CA4FCEF00BC4197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3B02031CA4FCEF00BC4197 /* LaunchScreen.storyboard in Resources */,
+				6C3B02251CA4FEE900BC4197 /* Localizable.strings in Resources */,
+				6C3B02621CA5156800BC4197 /* ListItemTableViewCell.xib in Resources */,
+				6C3B02B31CA5B68200BC4197 /* BookmarkTableViewCell.xib in Resources */,
+				6C3B02C01CA5D22700BC4197 /* GoogleSignIn.bundle in Resources */,
+				6C3B02001CA4FCEF00BC4197 /* Assets.xcassets in Resources */,
+				6C3B02C61CA5EDFC00BC4197 /* Bookmarks.db in Resources */,
+				6C3B01FE1CA4FCEF00BC4197 /* Main.storyboard in Resources */,
+				6C3B029F1CA54C9F00BC4197 /* Html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C3B020A1CA4FD0600BC4197 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"INFO:|TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C3B01E91CA4FCEF00BC4197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3B02611CA5156800BC4197 /* ListItemTableViewCell.m in Sources */,
+				6C3B02B21CA5B68200BC4197 /* BookmarkTableViewCell.m in Sources */,
+				6C3B025C1CA5150D00BC4197 /* BaseTableViewCell.m in Sources */,
+				6C3B02491CA5090800BC4197 /* BaseViewController.m in Sources */,
+				6C3B01F51CA4FCEF00BC4197 /* AppDelegate.m in Sources */,
+				6C3B01F21CA4FCEF00BC4197 /* main.m in Sources */,
+				6C3B02771CA5343000BC4197 /* BookmarksViewController.m in Sources */,
+				6C3B021C1CA4FEDB00BC4197 /* SettingsManager.m in Sources */,
+				6C3B021A1CA4FEDB00BC4197 /* LocalizationSystem.m in Sources */,
+				6C3B02A31CA5A78B00BC4197 /* OfflineService.m in Sources */,
+				6C3B02A81CA5A8DB00BC4197 /* WikipediaReaderDataManager.m in Sources */,
+				6C3B02741CA5332100BC4197 /* WikipediaDetailViewController.m in Sources */,
+				6C3B02381CA5001C00BC4197 /* Tools.m in Sources */,
+				6C3B02651CA518AD00BC4197 /* LanguageViewController.m in Sources */,
+				6C3B02521CA50E9400BC4197 /* SettingsViewController.m in Sources */,
+				6C3B02AE1CA5B42700BC4197 /* Bookmark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C3B01FC1CA4FCEF00BC4197 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3B01FD1CA4FCEF00BC4197 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C3B02011CA4FCEF00BC4197 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3B02021CA4FCEF00BC4197 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6C3B02211CA4FEE900BC4197 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3B02221CA4FEE900BC4197 /* en */,
+				6C3B02231CA4FEE900BC4197 /* lv */,
+				6C3B02241CA4FEE900BC4197 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C3B02051CA4FCEF00BC4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C3B02061CA4FCEF00BC4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C3B02081CA4FCEF00BC4197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "WikipediaReader/WikipediaReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.test.WikipediaReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6C3B02091CA4FCEF00BC4197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "WikipediaReader/WikipediaReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.test.WikipediaReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C3B01E81CA4FCEF00BC4197 /* Build configuration list for PBXProject "WikipediaReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3B02051CA4FCEF00BC4197 /* Debug */,
+				6C3B02061CA4FCEF00BC4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3B02071CA4FCEF00BC4197 /* Build configuration list for PBXNativeTarget "WikipediaReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3B02081CA4FCEF00BC4197 /* Debug */,
+				6C3B02091CA4FCEF00BC4197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C3B01E51CA4FCEF00BC4197 /* Project object */;
+}
